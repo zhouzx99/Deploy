@@ -1,0 +1,21 @@
+From 6d96b07056ab630a7e5f6f0f09200e08d5f9349b Mon Sep 17 00:00:00 2001
+From: root <root@localhost.localdomain>
+Date: Mon, 26 Mar 2018 16:10:54 +0800
+Subject: [PATCH] Fix namespace for PHP MQTT
+
+
+diff --git a/phpMQTT.php b/phpMQTT.php
+index 19de263..71a474a 100644
+--- a/phpMQTT.php
++++ b/phpMQTT.php
+@@ -1,6 +1,6 @@
+ <?php
+ 
+-namespace Bluerhinos;
++namespace phpMQTT;
+ 
+ /*
+  	phpMQTT
+-- 
+2.7.4
+
