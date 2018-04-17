@@ -2,6 +2,7 @@
 The tools of deploying the projects
 
 Usage:
+
     1. Install the SmartCloud project
 	cd install
 	./install.sh
